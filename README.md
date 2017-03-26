@@ -178,3 +178,10 @@ $ python3
 >> print(sess.run(hello))
 ```
 ```log_device_placement``` should show your GPU
+
+CREDITS:
+
+[This](https://devtalk.nvidia.com/default/topic/878117/-solved-titan-x-for-cuda-7-5-login-loop-error-ubuntu-1404) link was very helpful in installing the CUDA Toolkit (NeuroSurfer)
+
+[This](https://devtalk.nvidia.com/default/topic/903867) was useful for learning how to remove existing NVIDIA drivers (gsuk)
+
