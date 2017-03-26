@@ -6,18 +6,23 @@ GPU For computation only.
 Steps:
 1. Download CUDA Toolkit 8.0 runfile(local) https://developer.nvidia.com/cuda-downloads
 
+![CUDA Toolkit 8.0](https://github.com/nicolaifsf/Installing-Tensorflow-with-GPU/blob/Images/Get%20CUDA%20Toolkit%208.0.png)
+
+
 2. Download CUDNN from https://developer.nvidia.com/cudnn -> Might need to register for an account
 - Agree to the Terms of the cuDNN Software License Agreement
 - Download cuDNN v5.1 (Jan 20, 2017), for CUDA 8.0
 - Select the cuDNN v5.1 Library for Linux and save the .tgz
+![cudNN 5.1](https://github.com/nicolaifsf/Installing-Tensorflow-with-GPU/blob/Images/Download%20cuDNN.png)
 
-3. Navigate to www.nvidia.com/Download/index.aspx and download the runfile to install the 378 driver for:
+3. Navigate to www.nvidia.com/Download/index.aspx and download the runfile to install the 378 driver for GTX 1080 ti (or whichever driver suits you):
 ```
 Product Type: GeForce
 Product Series: GeForce 10 Series
 Product GeForce GTX 1080 Ti
 Operating System: Linux 64-bit
 ```
+![NVIDIA 378 Driver](https://github.com/nicolaifsf/Installing-Tensorflow-with-GPU/blob/Images/Download%20NVIDIA%20GTX%201080ti%20Driver.png)
 
 4. Run ```sudo apt-get install build-essential```
 
